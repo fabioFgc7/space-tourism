@@ -9,6 +9,9 @@ import { Tecnology } from "../components/Tecnology";
 export const RoutePage = () => {
   return (
     <Routes>
+    <Route >
+
+    </Route>
       <Route
         path='/'
         element={<Home />}
