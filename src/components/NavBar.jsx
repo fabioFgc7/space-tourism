@@ -6,8 +6,8 @@ import { HamburgerBotton } from "./HamburgerBotton";
 
 export const NavBar = () => {
   const [isActive, setIsActive] = useState(false);
-  let opneBotton = "/src/assets/shared/icon-hamburger.svg";
-  let closedBotton = "/src/assets/shared/icon-close.svg";
+  let opneBotton = "/public/assets/shared/icon-hamburger.svg";
+  let closedBotton = "/public/assets/shared/icon-close.svg";
   const [botton, setBotton] = useState(opneBotton);
 
   const handleOpne = (e) => {
@@ -26,7 +26,7 @@ export const NavBar = () => {
     <div className='relative'>
       <img
         className='absolute z-10 bottom-auto md:top-10 md:left-10 top-4 md:right-auto left-auto right-6 md:inline-block flex justify-center items-center animate-spin-slow '
-        src='/src/assets/shared/logo.svg'
+        src='/public/assets/shared/logo.svg'
         alt='Logo'
       />
       <HamburgerBotton

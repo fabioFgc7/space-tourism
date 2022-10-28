@@ -6,7 +6,7 @@ export const Destination = () => {
 
 
   return (
-    <section className="box-border  md:bg-[url('/src/assets/destination/background-destination-desktop.jpg')] relative  bg-[url('/src/assets/destination/background-destination-tablet.jpg')] place-content-center min-h-screen ">
+    <section className="box-border  md:bg-[url('/public/assets/destination/background-destination-desktop.jpg')] relative  bg-[url('/public/assets/destination/background-destination-tablet.jpg')] place-content-center min-h-screen ">
     
       <DestinationView/>
        

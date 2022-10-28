@@ -2,7 +2,7 @@ import React from "react";
 
 export const Home = () => {
   return (
-    <main className="box-border h-screen md:bg-[url('/src/assets/home/background-home-desktop.jpg')]  bg-[url('/src/assets/home/background-home-tablet.jpg')] relative">
+    <main className="box-border h-screen md:bg-[url('/public/assets/home/background-home-desktop.jpg')]  bg-[url('/public/assets/home/background-home-tablet.jpg')] relative">
       <h2 className='absolute bottom-auto md:top-40 md:w-auto  top-24 md:left-24 flex justify-center w-full md:justify-start'>
         SO, YOU WANT TO TRAVEL TO
       </h2>
